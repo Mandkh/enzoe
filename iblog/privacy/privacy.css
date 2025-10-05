@@ -1,0 +1,11 @@
+* {
+    background-color: rgb(207, 207, 207);
+    margin: 10px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: #3d3d3d;
+    color: rgb(255, 255, 255);
+}

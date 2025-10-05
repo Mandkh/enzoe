@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    border: 3px solid grey;
+    font-size: 13em;
+    text-align: center;
+    background-color: aliceblue;
+    /* transform: translateX(50px); can be % , and Y */
+    /* transform: rotatez(50deg); XYZ degree */
+    /* transform: scale(0.5); can be changed by number XYZ */
+    /* transform: skewX(30deg); XYZ deg */
+
+}

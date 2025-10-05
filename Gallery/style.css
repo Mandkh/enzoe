@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+.gallery {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid grey;
+    margin: 5px;
+    width: 200px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery .description {
+    text-align: center;
+    padding: 10px;
+}
+
+.gallery:hover {
+    border-color: rgb(255, 255, 255);
+}
+
+.gallery :hover {
+    color: rgb(255, 255, 255);
+}
+
+.gallery a #batman {
+    height: 50%;
+}
+
+@media screen and (max-width:600px) {
+
+    .gallery {
+        width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+.MainNav ul {
+    background-color: rgb(37, 37, 37);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.MainNav a {
+    padding: 5px;
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+.MainNav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.MainNav li {
+    float: left;
+    padding: 17px;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.dropdown button {
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+}
+
+.dropdown a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 10px;
+}

@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    background-color: rgb(219, 219, 219);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    padding: 500px;
+    color: white;
+}
+
+.navbar {
+    background-color: aliceblue;
+    color: rgb(170, 170, 170);
+    height: 80px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+section {
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+article {
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+
+    aside,
+    section,
+    article,
+    .MainNav ul {
+        width: 100%;
+    }
+}
+
+.MainNav ul {
+    background-color: rgb(63, 63, 63);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.MainNav a {
+    padding: 5px;
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+/* .MainNav a:hover {
+    color: rgb(255, 255, 255);
+} */
+
+.MainNav li {
+    padding: 0px;
+    text-align: center;
+}
+
+.MainNav ul a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.MainNav a:hover{
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-duration: 1;
+}
+
+@keyframes rotate {
+       100% {
+        transform: rotate(10deg);
+    }
+}

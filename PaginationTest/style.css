@@ -1,0 +1,30 @@
+body {
+    background-color: aliceblue;
+}
+
+div {
+    text-align: center;
+    padding-top: 27px;
+    text-decoration: none;
+}
+
+div a {
+    padding: 15px;
+
+}
+
+div .active {
+    background-color: rgb(105, 0, 166);
+    font-weight: 400;
+    color: black;
+    border-radius: 10px;
+}
+
+div a:hover:not(.active) {
+    color: rgb(110, 248, 255);
+    background-color: rgb(124, 153, 177);
+    border-radius: 8px;
+    height: 40px;
+    display: inline;
+    width: 20px;
+}

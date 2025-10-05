@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.side-bar {
+    border: 1px solid rgb(232, 232, 232);
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+
+.side-bar .iblog a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.side-bar .dropdown1 button {
+    border: 0;
+    background-color: aliceblue;
+    font-size: 1.2em;
+}
+
+
+.side-bar .dropdown1 a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.dropdown .content {
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(214, 214, 214);
+    min-width: 100px;
+    display: none;
+    box-shadow: 2px 2px 5px color(srgb rgb(0, 0, 0) green blue);
+}
+
+
+.dropdown2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.side-bar .dropdown2 button {
+    border: 0;
+    background-color: aliceblue;
+    font-size: 1.2em;
+}
+
+
+.side-bar .dropdown2 a {
+    text-decoration: none;
+    color: #000;
+    display: none;
+}
+
+
+.side-bar .dropdown3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar .dropdown3 button {
+    border: none;
+    background-color: aliceblue;
+    font-size: 1.2em;
+}
+
+.side-bar .dropdown3 a {
+    text-decoration: none;
+    color: #000;
+    display: none;
+}
+
+.side-bar .dropdown4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar .dropdown4 button {
+    border: none;
+    background-color: aliceblue;
+    font-size: 1.2em;
+}
+
+.side-bar .dropdown4 a {
+    text-decoration: none;
+    color: #000;
+    display: none;
+}
+
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}

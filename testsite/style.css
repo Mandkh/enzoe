@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.navbar {
+    background-color: aliceblue;
+    color: rgb(170, 170, 170);
+    height: 80px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+section {
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+article {
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contact {
+    display: flex;
+    align-items: self-start;
+    text-align: center;
+    padding-right: 20px;
+    width: 50%;
+}
+
+footer .contact a {
+    font-size: 1.5em;
+    padding-right: 20px;
+    color: #dfdfdf;
+}
+
+footer .contact a:hover {
+    color: #fff;
+}
+
+
+footer .contact a:hover {
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-duration: infnite;
+}
+
+@media screen and (max-width:600px) {
+
+    aside,
+    section,
+    article {
+        width: 100%;
+    }
+}
+
+
+@keyframes scale {
+    70% {
+        transform: scale(1.2);
+    }
+}
