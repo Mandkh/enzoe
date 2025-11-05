@@ -96,6 +96,8 @@ header .page-container .button-container button a:hover {
     color: #b7b7b7;
 }
 
+
+
 main #slider {
     position: relative;
     width: 100%;
@@ -116,12 +118,11 @@ main #slider .slide {
     background-size: cover;
 }
 
-
 main #slider button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.45);
+    background: rgba(0, 0, 0, 0.45);
     color: #fff;
     border: none;
     padding: 8px 10px;
@@ -131,10 +132,16 @@ main #slider button {
 }
 
 main #slider button:hover {
-    background: rgba(0,0,0,0.65);
+    background: rgba(0, 0, 0, 0.65);
 }
-main #slider #prev { left: 12px; }
-main #slider #next { right: 12px; }
+
+main #slider #prev {
+    left: 12px;
+}
+
+main #slider #next {
+    right: 12px;
+}
 
 
 main #slider .slide1 {
@@ -163,3 +170,35 @@ main #slider .slide3 {
     height: 400px;
 }
 
+main .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+main .about-container .pseudo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+main .pseudo-line1 {
+    background-color: rgb(35, 35, 61);
+    width: 30px;
+    height: 1px;
+}
+
+main .pseudo-dot {
+    background-color: rgb(35, 35, 61);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+main .pseudo-line2 {
+    background-color: rgb(35, 35, 61);
+    width: 30px;
+    height: 1px;
+}
