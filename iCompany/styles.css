@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: url('images/sunset.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+header .nav-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    background-color: rgb(35, 35, 61);
+    height: 55px;
+}
+
+header .nav-section .logo {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+header .nav-section a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+header .nav-section i {
+    display: flex;
+    align-items: center;
+}
+
+
+header .nav-section a:hover {
+    color: #b7b7b7;
+}
+
+
+header .nav-section i:hover {
+    color: #b7b7b7;
+}
+
+header .page-container {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .page-container .button-container {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+header .page-container .button-container button {
+    background-color: rgb(35, 35, 61);
+    border: 2px solid rgb(35, 35, 61);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+header .page-container .button-container button a {
+    background-color: rgb(35, 35, 61);
+    text-decoration: none;
+    color: #fff;
+    border-color: rgb(35, 35, 61);
+}
+
+header .page-container .button-container button a:hover {
+    color: #b7b7b7;
+}
+
+main #slider {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin: 13px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+main #slider .slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+main #slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+main #slider button:hover {
+    background: rgba(0,0,0,0.65);
+}
+main #slider #prev { left: 12px; }
+main #slider #next { right: 12px; }
+
+
+main #slider .slide1 {
+    background-image: url('images/board.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+main #slider .slide2 {
+    background-image: url('images/dunno.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+main #slider .slide3 {
+    background-image: url('images/table.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
