@@ -184,6 +184,7 @@ main .about-container .pseudo-container {
     align-items: center;
     margin-bottom: 20px;
 }
+
 main .pseudo-line1 {
     background-color: rgb(35, 35, 61);
     width: 30px;
@@ -201,4 +202,59 @@ main .pseudo-line2 {
     background-color: rgb(35, 35, 61);
     width: 30px;
     height: 1px;
+}
+
+main .about {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+main .about .text-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: #b7b7b7 2px 2px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main .about .text-box p {
+    color: #3d3d3d;
+}
+
+main .about .text-box button {
+    background-color: rgb(52, 52, 92);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main .about .text-box button:hover {
+    background-color: #2f40a3;
+}
+
+main .about .text-box button a {
+    text-decoration: none;
+    color: white;
+}
+
+main .our-team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .our-team-container .pseudo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+main .our-team-container h1 {
+    padding-bottom: 10px;
 }
