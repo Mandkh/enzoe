@@ -20,7 +20,7 @@ header .nav-section {
     flex-direction: row;
     justify-content: space-around;
     color: #fff;
-    background-color: rgb(35, 35, 61);
+    background-color: rgb(55, 55, 91);
     height: 55px;
 }
 
@@ -70,8 +70,8 @@ header .page-container .button-container {
 }
 
 header .page-container .button-container button {
-    background-color: rgb(35, 35, 61);
-    border: 2px solid rgb(35, 35, 61);
+    background-color: rgb(55, 55, 91);
+    border: 2px solid rgb(55, 55, 91);
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
@@ -86,10 +86,10 @@ header .page-container .button-container button {
 }
 
 header .page-container .button-container button a {
-    background-color: rgb(35, 35, 61);
+    background-color: rgb(55, 55, 91);
     text-decoration: none;
     color: #fff;
-    border-color: rgb(35, 35, 61);
+    border-color: rgb(55, 55, 91);
 }
 
 header .page-container .button-container button a:hover {
@@ -186,20 +186,20 @@ main .about-container .pseudo-container {
 }
 
 main .pseudo-line1 {
-    background-color: rgb(35, 35, 61);
+    background-color: rgb(55, 55, 91);
     width: 30px;
     height: 1px;
 }
 
 main .pseudo-dot {
-    background-color: rgb(35, 35, 61);
+    background-color: rgb(55, 55, 91);
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
 
 main .pseudo-line2 {
-    background-color: rgb(35, 35, 61);
+    background-color: rgb(55, 55, 91);
     width: 30px;
     height: 1px;
 }
@@ -234,7 +234,7 @@ main .about .text-box button {
 }
 
 main .about .text-box button:hover {
-    background-color: #2f40a3;
+    background-color: rgb(75, 75, 121);
 }
 
 main .about .text-box button a {
@@ -242,19 +242,109 @@ main .about .text-box button a {
     color: white;
 }
 
-main .our-team-container {
+main .our-service-container .h1-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main .our-team-container .pseudo-container {
+main .our-service-container .h1-container .pseudo-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
 }
 
-main .our-team-container h1 {
+main .our-service-container .h1-container h1 {
     padding-bottom: 10px;
+}
+
+main .our-service-container .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    overflow-wrap: normal;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+main .our-service-container .services .service-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: #b7b7b7 2px 2px 5px;
+    margin: 10px;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 160px;
+}
+
+main .our-service-container .services .service-box i {
+    color: rgb(143, 42, 154);
+    padding-bottom: 10px;
+    padding-top: 14px;
+}
+
+main .our-service-container .services .service-box h2 {
+    color: rgb(94, 30, 101);
+    padding-bottom: 15px;
+}
+
+main .our-service-container .services .service-box p {
+    color: #616161;
+}
+
+
+main .team .our-team {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+main .team .our-team .pseudo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+main .team .team-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+main .team .team-card-container .team-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 23%;
+    box-shadow: #afafaf 2px 2px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .team .team-card-container .team-cards img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+main .team .team-card-container .team-cards .icons {
+    color: rgb(45, 66, 111);
+
 }
