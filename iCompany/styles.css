@@ -342,7 +342,7 @@ main .team .team-card-container .team-cards {
 
 main .team .team-card-container .team-cards img {
     width: 250px;
-    height: 250px;  
+    height: 250px;
     border-radius: 50%;
     margin-top: 20px;
 }
@@ -352,5 +352,27 @@ main .team .team-card-container .team-cards .icons {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
+main .get-in-touch-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main .get-in-touch-container .submit {
+    width: 49%;
+    text-align: center;
+}
+
+main .get-in-touch-container .location {
+    width: 49%;
+}
+
+main .get-in-touch-container .submit form {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
