@@ -176,6 +176,7 @@ main .about-container {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin: 10px;
 }
 
 main .about-container .pseudo-container {
@@ -307,6 +308,7 @@ main .team .our-team {
     text-align: center;
     flex-direction: column;
     padding-bottom: 20px;
+    margin: 10px;
 }
 
 main .team .our-team .pseudo-container {
@@ -326,6 +328,7 @@ main .team .team-card-container {
     margin-top: 20px;
     flex-wrap: wrap;
     gap: 10px;
+    margin: 10px;
 }
 
 main .team .team-card-container .team-cards {
@@ -353,6 +356,7 @@ main .team .team-card-container .team-cards .icons {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    gap: 7px;
 }
 
 
@@ -362,6 +366,7 @@ main .get-in-touch-container {
     justify-content: space-around;
     margin-top: 30px;
     box-shadow: #a5a5a5 2px 2px 5px;
+    margin: 10px;
 }
 
 main .get-in-touch-container .submit {
@@ -401,5 +406,39 @@ main .get-in-touch-container .submit form button {
     width: 90px;
     border-radius: 4px;
     font-weight: bolder;
-    border-bottom:  1px 0 solid #aeaeae;
+    border-bottom: 1px 0 solid #aeaeae;
+}
+
+main .contact-container {
+    box-shadow: #a1a1a1 2px 2px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+main .contact-container .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+main .contact-container .contact i {
+    color: rgb(65, 173, 206);
+}
+
+main .contact-container .contact p {
+    color: #505050;
+}
+
+
+
+footer {
+    background-color: rgb(55, 55, 91);
+    color: #fff;
 }
