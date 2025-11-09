@@ -456,22 +456,43 @@ footer .footer-container .footer-info {
     text-align: center;
     width: 33%;
 }
+
+footer .footer-container.footer-info p {
+    font-size: smaller;
+}
+
 footer .footer-container .footer-info .logos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 10px;
 }
+
 footer .footer-container .footer-links {
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: #fff;
     width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 footer .footer-container .footer-contact {
     display: flex;
     flex-direction: column;
     width: 33%;
+    text-align: center;
+    align-items: center;
+
+}
+
+footer .footer-container .footer-contact h3 {
+    padding-bottom: 10px;
+}
+
+footer .footer-container .footer-contact p {
+    padding-bottom: 10px;
 }
