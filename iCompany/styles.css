@@ -441,4 +441,37 @@ main .contact-container .contact p {
 footer {
     background-color: rgb(55, 55, 91);
     color: #fff;
+
+}
+
+footer .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer .footer-container .footer-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+}
+footer .footer-container .footer-info .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+footer .footer-container .footer-links {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    width: 33%;
+}
+
+footer .footer-container .footer-contact {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
 }
