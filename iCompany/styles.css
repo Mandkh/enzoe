@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url('images/sunset.jpg');
+    background-image: url('sunset.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -161,7 +161,7 @@ main #slider .slide2 {
 }
 
 main #slider .slide3 {
-    background-image: url('images/table.jpg');
+    background-image: url('table.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
