@@ -441,7 +441,7 @@ main .contact-container .contact p {
 footer {
     background-color: rgb(55, 55, 91);
     color: #fff;
-
+    padding-top: 20px;
 }
 
 footer .footer-container {
@@ -455,6 +455,7 @@ footer .footer-container .footer-info {
     flex-direction: column;
     text-align: center;
     width: 33%;
+    gap: 15px;
 }
 
 footer .footer-container.footer-info p {
@@ -468,6 +469,14 @@ footer .footer-container .footer-info .logos {
     margin-top: 10px;
 }
 
+footer .footer-container .footer-info .logos i {
+    cursor: pointer;
+}
+
+footer .footer-container .footer-info .logos i:hover {
+    color: #b7b7b7;
+}
+
 footer .footer-container .footer-links {
     display: flex;
     flex-direction: column;
@@ -476,7 +485,17 @@ footer .footer-container .footer-links {
     width: 33%;
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
+    padding-left: 80px;
+}
+
+footer .footer-container .footer-links div a:hover {
+    color: #b7b7b7;
+}
+
+footer .footer-container .footer-links h1 {
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 footer .footer-container .footer-links a {
@@ -491,6 +510,7 @@ footer .footer-container .footer-contact {
     width: 33%;
     text-align: center;
     align-items: center;
+    gap: 15px;
 }
 
 footer .footer-container .footer-contact h3 {
@@ -500,3 +520,16 @@ footer .footer-container .footer-contact h3 {
 footer .footer-container .footer-contact p {
     padding-bottom: 10px;
 }
+
+
+footer .pseudo-0 {
+    height: 2px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
