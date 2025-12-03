@@ -22,6 +22,7 @@ header .nav-section {
     color: #fff;
     background-color: rgb(55, 55, 91);
     height: 55px;
+    flex-wrap:wrap
 }
 
 header .nav-section .logo {
@@ -145,7 +146,7 @@ main #slider #next {
 
 
 main #slider .slide1 {
-    background-image: url('images/board.jpg');
+    background-image: url('board.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -153,7 +154,7 @@ main #slider .slide1 {
 }
 
 main #slider .slide2 {
-    background-image: url('images/dunno.jpg');
+    background-image: url('dunno.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
