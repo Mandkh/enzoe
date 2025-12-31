@@ -1,4 +1,5 @@
 * {
+    margin: 0;
     background-color: rgb(2, 7, 37);
 }
 
@@ -8,15 +9,26 @@ header .name {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 20px;
+}
+
+header .name b {
+    width: 20%;
 }
 
 header .name nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 80%;
 }
 
 header .name nav a {
     color: #ffffff;
     text-decoration: none;
+    justify-content: space-around;
+}
+
+header .name nav a:hover {
+    color: #b4b4b4;
 }
