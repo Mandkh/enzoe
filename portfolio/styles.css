@@ -10,9 +10,13 @@ header .name {
     justify-content: space-around;
 }
 
-header .name nav a {
+header .name nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+header .name nav a {
     color: #ffffff;
     text-decoration: none;
 }
